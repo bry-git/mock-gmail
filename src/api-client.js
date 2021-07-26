@@ -16,7 +16,6 @@ export const sendEmail = (data) => {
         },
         body: JSON.stringify(data)
     })
-        .then(response => response.json())
         .then(data => data)
         .catch(err => { throw new Error('ERROR') })
 }

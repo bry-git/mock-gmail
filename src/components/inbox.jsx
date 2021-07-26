@@ -13,10 +13,16 @@ class Inbox extends React.Component {
 
     render() {
 
-        const emails = getAllEmails()
+        // const previewList = emails.map(() => {
+        //     return(<EmailPreview/>)
+        // })
 
         return (
-            <div className="inbox">
+            <div className="inbox" onClick={() => {
+
+               const emails = getAllEmails()
+               
+               }}>
                 <EmailPreview/>
             </div>
         )

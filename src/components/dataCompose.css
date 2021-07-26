@@ -1,0 +1,21 @@
+.compose-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.compose-half-line {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.compose-single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.compose-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
